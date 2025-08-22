@@ -74,7 +74,7 @@ end_node = 'G'
 
 # Obtener caminos
 shortest = bfs_shortest_path(graph, start_node, end_node)  # Camino más corto (BFS)
-all_paths = dfs_all_paths(graph, start_node, end_node)     # Todos los caminos (DFS)
 
 print("Camino más corto:", shortest)
 print("Todos los caminos:", all_paths)
+
