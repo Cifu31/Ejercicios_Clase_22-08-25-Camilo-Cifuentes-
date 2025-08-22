@@ -76,5 +76,6 @@ end_node = 'G'
 shortest = bfs_shortest_path(graph, start_node, end_node)  # Camino más corto (BFS)
 
 print("Camino más corto:", shortest)
-print("Todos los caminos:", all_paths)
+
+
 
